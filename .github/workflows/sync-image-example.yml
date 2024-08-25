@@ -34,4 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/bitnami/zookeeper:latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/zookeeper:latest
+        skopeo copy docker://docker.io/wurstmeister/zookeeper:latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/wurstmeister_zookeeper:latest
+        skopeo copy docker://docker.io/wurstmeister/kafka:latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/wurstmeister_kafka:latest
