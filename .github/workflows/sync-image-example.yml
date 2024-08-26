@@ -34,5 +34,8 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/wurstmeister/zookeeper:latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/wurstmeister_zookeeper:latest
-        skopeo copy docker://docker.io/wurstmeister/kafka:latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/wurstmeister_kafka:latest
+        skopeo copy docker://docker.io/mcr.microsoft.com/mssql/server:2022-latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql_server:2022-latest
+        skopeo copy docker://docker.io/mcr.microsoft.com/mssql/server:2019-latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql_server:2019-latest
+        skopeo copy docker://docker.io/mcr.microsoft.com/mssql/server:2017-latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql_server:2017-latest
+        skopeo copy docker://docker.io/mcr.microsoft.com/mssql/server:2016-latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql_server:2016-latest
+        skopeo copy docker://docker.io/mcr.microsoft.com/mssql/server:2014-latest docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql_server:2014-latest
