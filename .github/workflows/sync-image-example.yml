@@ -34,7 +34,14 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/mysql:5.7.44 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql:5.7.44
-        skopeo copy docker://docker.io/mysql:8.0.26 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql:8.0.26
-        skopeo copy docker://docker.io/mysql:8.0.40 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql:8.0.40
-        skopeo copy docker://docker.io/mysql:9.0.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/mysql:9.0.1 
+        skopeo copy docker://docker.io/redis:6.2.16 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/redis:5.7.44
+        skopeo copy docker://docker.io/redis:7.2.6 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/redis:8.0.26
+        skopeo copy docker://docker.io/redis:7.4.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/redis:8.0.40
+        skopeo copy docker://docker.io/rabbitmq:3.5.0 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/rabbitmq:3.5.0
+        skopeo copy docker://docker.io/rabbitmq:3.13.7 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/rabbitmq:3.13.7
+        skopeo copy docker://docker.io/elasticsearch:6.8.23 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:6.8.23
+        skopeo copy docker://docker.io/elasticsearch:7.10.2 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:7.10.2
+        skopeo copy docker://docker.io/elasticsearch:7.17.26 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:7.17.26
+        skopeo copy docker://docker.io/elasticsearch:8.8.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.8.1
+        skopeo copy docker://docker.io/elasticsearch:8.15.5 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.15.5
+        skopeo copy docker://docker.io/elasticsearch:8.16.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.16.1
