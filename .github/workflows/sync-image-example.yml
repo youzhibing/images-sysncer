@@ -39,9 +39,10 @@ jobs:
         skopeo copy docker://docker.io/redis:7.4.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/redis:8.0.40
         skopeo copy docker://docker.io/rabbitmq:3.5.0 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/rabbitmq:3.5.0
         skopeo copy docker://docker.io/rabbitmq:3.13.7 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/rabbitmq:3.13.7
+        skopeo copy docker://docker.io/rabbitmq:4.0.4 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/rabbitmq:4.0.4
         skopeo copy docker://docker.io/elasticsearch:6.8.23 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:6.8.23
-        skopeo copy docker://docker.io/elasticsearch:7.10.0 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:7.10.0
+        skopeo copy docker://docker.io/elasticsearch:7.10.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:7.10.1
         skopeo copy docker://docker.io/elasticsearch:7.17.26 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:7.17.26
-        skopeo copy docker://docker.io/elasticsearch:8.8.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.8.1
+        skopeo copy docker://docker.io/elasticsearch:8.8.2 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.8.2
         skopeo copy docker://docker.io/elasticsearch:8.15.5 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.15.5
         skopeo copy docker://docker.io/elasticsearch:8.16.1 docker://registry.cn-hangzhou.aliyuncs.com/qingshilu/elasticsearch:8.16.1
